@@ -118,8 +118,8 @@ def generate_images_in_batches(total_images, img_size=(IMAGE_SIZE, IMAGE_SIZE)):
     for idx in range(total_images):
         image, pixel_data = generate_image(img_size, WIDTH)
 
-        image_path = os.path.join(IMAGE_DIR, f"img{idx+41}.png")
-        txt_path = os.path.join(TXT_DIR, f"img{idx+41}.txt") 
+        image_path = os.path.join(IMAGE_DIR, f"img{idx+1}.png")
+        txt_path = os.path.join(TXT_DIR, f"img{idx+1}.txt") 
         save_image_and_data(image, pixel_data, image_path, txt_path)
 
         print(f"Image {idx + 1}/{total_images} saved.")
