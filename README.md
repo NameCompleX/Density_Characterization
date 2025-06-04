@@ -78,6 +78,6 @@ This project provides a complete pipeline for generating, processing, and applyi
 
 - `pip install -r requirements.txt`
 
-## 📌 Project Description
+## 📌 Characterization Description
 
 This project explores the relationship between image grayscale and SWNT arrays' density and builds models for density characterization tasks.
